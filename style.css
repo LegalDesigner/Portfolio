@@ -10,7 +10,7 @@ body {
   .purple-header {
     background-color: purple;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     margin: 0 auto;
     color: white;
 
@@ -23,6 +23,7 @@ body {
     color: white;
     padding: 20px ;
     width: 85%;
+    
   }
   
   .navbar-logo {
@@ -48,18 +49,39 @@ body {
     text-decoration: none;
     color: white;
     font-weight: 400;
+    margin-top: -20px;
   }
+
+  .navbar-link1 {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(235, 240, 94);
+    font-weight: 400;
+    margin-top: -20px;
+  }
+
+  .navbar-link2 {
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(235, 240, 94);
+    font-weight: 400;
+    margin-top: -20px;
+  }
+
+
 
   .navbar-link img {
     width: 30px;
     height: 30px;
     margin-top: 6px;
   }
-  
+ 
   .navbar-link:hover {
     text-decoration: underline;
-    color: rgb(235, 240, 94);
+    color: rgb(238, 239, 190);
   }
+
+ 
 
    .portfolio-content {
     text-align: center;
@@ -70,7 +92,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px; 
+    margin-top: 40px; 
     
   } 
 
@@ -85,7 +107,32 @@ body {
   .centered-content p {
     color: white;
     margin-top: 1px;
+    text-align: left;
   }
+
+
+  .background-img2{
+    width: 21%;
+    height: auto;
+    margin-top: -28%;
+    margin-left: 87%;
+  }
+
+
+  .background-img4{
+    width: 22%;
+    height: auto;
+    margin-top: -35%;
+    margin-left: -89%;
+  }
+
+  .background-img1{
+    width: 15%;
+    height: auto;
+    margin-top: -2%;
+    margin-left: -89%;
+  }
+
 
   .centered-content h1 {
     color: white;
@@ -96,7 +143,7 @@ body {
   .centered-content .summary {
     margin-top: 60px;
     font-size: 18px;
-    width: 80%;
+    width: 65%;
     line-height: 1.6;
     
   }
@@ -109,7 +156,7 @@ body {
   .skill-section {
     background-color: white;
     padding: 40px;
-    margin-top: 8%;
+    margin-top: 10%;
     height: 20%;
     color: rgb(31, 31, 31);
   }
@@ -226,8 +273,9 @@ body {
   }
   
   .product-image img {
-    width: 112%;
+    width: 107%;
     height: auto;
+    margin-left: -40px;
   }
   
   .coming-soon-btn {
@@ -239,6 +287,12 @@ body {
     text-decoration: none;
   }
 
+  .coming-soon-btn:hover {
+    background-color: purple;
+    color: rgb(235, 240, 94);
+  }
+   
+
   .bleanq-section {
     display: flex;
     align-items: center;
@@ -248,7 +302,7 @@ body {
     flex: 1;
     text-align: left;
     color: black;
-    margin-left: 130px;
+    margin-left: 140px;
    
 
   }
@@ -257,18 +311,22 @@ body {
   .bleanq-info h1,
   .bleanq-info p,
   .bleanq-info a {
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
-  
+  .bleanq-info p{
+    width: 81%;
+    
+  }
   .bleanq-image {
     flex: 1;
     margin-right: 10px; 
   }
   
   .bleanq-image img {
-    width: 112%;
-    height: auto;  
+    width: 107%;
+    height: auto; 
+    margin-left: 65px; 
 
     
   }
@@ -289,7 +347,7 @@ body {
     background-color: purple;
     color: rgb(235, 240, 94);
   }
-   
+  
 
   .website-link {
     text-decoration: underline;
@@ -338,6 +396,7 @@ body {
 
   .ipay-info p {
     line-height: 1.6;
+    width: 81%;
 
   }
   
@@ -347,8 +406,9 @@ body {
   }
   
   .ipay-image img {
-    width: 112%;
+    width: 107%;
     height: auto;
+    margin-left: -65px;
   }
   
   .ipay-btn {
@@ -393,8 +453,9 @@ body {
   }
   
   .restaurant-image img {
-    width: 112%;
+    width: 107%;
     height: auto; 
+    margin-left: 65px;
   }
   
   .restaurant-btn {
@@ -416,6 +477,7 @@ body {
    
   .restaurant-info p {
     line-height: 1.6;
+    width: 81%;
   }
 
   .restaurant-info h1 {
@@ -427,7 +489,7 @@ body {
   .chi-device {
     font-weight: 600;
   }
-
+q
   .para {
     width: 95%;
   }
@@ -458,6 +520,7 @@ body {
 
   .learning-info p {
     line-height: 1.6;
+    width: 81%;
 
   }
   
@@ -467,8 +530,9 @@ body {
   }
   
   .learning-image img {
-    width: 112%;
+    width: 107%;
     height: auto;
+    margin-left: -65px;
   }
   
   .learning-btn {
@@ -529,7 +593,7 @@ body {
      
     background-color: purple;
     width: 100%;
-    height: 80px;
+    height: 110px;
     color: white;
 
   }
@@ -542,10 +606,37 @@ body {
     margin-top: -150px;
   }
 
+  .ipayimg-header img {
+    width: 70%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+
+
+  .ipayimg-header h1 {
+    color: purple;
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    padding-top: 40px;
+  }
+
+  .ipayimg-header p {
+    color: black;
+    width: 53%;
+    font-size: 18px;
+    margin-left: 25%;
+    line-height: 1.6;
+    
+  }
+
   .img-header h1 {
     color: purple;
     text-align: center;
     font-family: 'Pangolin', cursive;
+    padding-top: 40px;
   }
 
   .img-header p {
@@ -573,8 +664,8 @@ body {
   
   .tools {
     display: flex;
-    margin-left: 236px;
-    margin-top: -18%;
+    margin-left: 238px;
+    margin-top: -17%;
     gap: 170px;
   }
 
@@ -593,7 +684,7 @@ body {
   }
   
   .overview {
-    margin-top: 30px;
+    margin-top: 40px;
   }
   
   .overview h1{
@@ -994,3 +1085,683 @@ body {
   margin-left: 18%;
 }
 
+.objective-list li{
+  line-height: 1.6;
+  padding: 10px;
+  width: 75%;
+  margin-left: -21px;
+}
+
+.objective-heading{
+  font-weight: bold;
+}
+
+.objectives-list li {
+  list-style-type: none;
+}
+
+.work-process {
+  
+    display: flex;
+    justify-content: center;
+    gap: 170px;
+    margin-top: 100px;
+} 
+
+.machine{
+margin-top: -11%;
+margin-left: 19%;
+} 
+
+.next-casestudy {
+  display: inline-block;
+  padding: 10px 100px;
+  border: 2px solid purple;
+  border-radius: 20px;
+  color: purple;
+  text-decoration: none;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+
+.next-casestudy:hover {
+  background-color: purple;
+  color: rgb(235, 240, 94);
+}
+
+
+.genesis-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -1%;
+  padding: 70px;
+  margin-left: -2%;
+}
+
+.genesis-info {
+  flex: 1;
+  padding-right: 20px;
+  color: black;
+}
+
+.genesis-info p {
+  line-height: 1.6;
+  width: 500px;
+
+}
+
+.genesis-image {
+  flex: 1;
+  margin-left: 130px; 
+}
+
+.future-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -5%;
+  padding: 70px;
+  margin-left: 4%;
+}
+
+.future-info {
+  flex: 1;
+  padding-right: 20px;
+  color: black;
+}
+
+.future-info p {
+  line-height: 1.6;
+  width: 470px;
+
+}
+
+.future-image img {
+  flex: 1;
+  margin-left: 160px; 
+}
+
+.ipay-problems {
+  line-height: 1.6;
+ 
+  margin-left: 19%;
+  width: 60%;
+  color: black;
+}
+
+.ipay-problems h3{
+  padding-top: 100px;
+}
+
+.ipay-problems img {
+  width: 80%;
+  height: 50%;
+  margin-left: 10%;
+  padding-top: 40px;
+}
+
+.ipay-heading{
+  line-height: 1.6;
+  padding-top: 50px;
+  margin-left: 18%;
+  width: 60%;
+  color: black;
+}
+
+.ipay-heading h1{
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+}
+
+.research-question {
+  margin-top: 70px;
+}
+
+
+.ipay-questions li {
+  line-height: 1.6;
+  padding: 10px;
+  width: 75%;
+  margin-left: -22px;
+}
+
+.ipay-container p {
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+  color: black;
+}
+
+.ipay-analysis h3{
+  color: black;
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.ipay-analysis img{
+  width: 60%;
+  height: 40%;
+  margin-left: 17%;
+  padding-top: 40px;
+}
+
+.ipay-container {
+  color: black;
+}
+
+.insight-list li{
+  line-height: 1.6;
+  padding: 10px;
+  width: 60%;
+  margin-left: 182px;
+  list-style-type: none;
+
+}
+
+.insight-heading{
+  font-weight: bold;
+}
+
+.ipay-painpoint{
+  color: black;
+}
+
+.competitive-sub p {
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+  color: black;
+}
+
+.competitive-sub h3{
+  color: black;
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.competitive-sub img{
+  width: 60%;
+  height: 40%;
+  margin-left: 17%;
+  padding-top: 40px;
+}
+
+.competitive-analysis{
+  color: black;
+}
+
+.competitive-analysis h1{
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.ideation-phase{
+  color: black;
+}
+
+.ideation-phase h1 {
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.ipay-userflow p{
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.ipay-userflow h3 {
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.ipay-userflow img{
+  width: 60%;
+  height: 40%;
+  margin-left: 17%;
+  padding-top: 40px; 
+}
+
+.ipay-design h1 {
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.ipay-wireframe h3{
+  margin-left: 18%;
+  padding-top: 50px;
+  color: black;
+}
+
+.ipay-wireframe p {
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+  color: black;
+}
+
+.ipay-wireframe img {
+  width: 60%;
+  height: 40%;
+  margin-left: 17%;
+  padding-top: 40px; 
+}
+
+ .ipay-cover {
+  width: 100%;
+  height: 5%;
+  padding-top: 120px; 
+} 
+
+.ipay-testing-phase{
+  color: black;
+}
+
+.ipay-testing-phase h1{
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.ipay-testing p{
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.ipay-testing h3{
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.back-button {
+  text-decoration: none;
+  color: #000;
+  font-size: larger;
+  margin-left: 150px;
+ 
+}
+
+.back-button:hover {
+  color: purple;
+}
+
+.my-banner{
+padding-top: 70px;
+}
+
+.my-thank-you{
+  padding-top: -100px;
+  width: 20%;
+  height: 10%
+}
+
+.problem-heading{
+  font-weight: bold;
+  color: purple;
+}
+
+.food-class {
+  margin-left: 75%;
+  position: relative;
+  bottom: 300px;
+}
+
+.ipay-process{
+  color: black;
+}
+
+.ipay-design-process h1{
+  margin-top: -15%;
+  text-align: center;
+  color: purple;
+}
+
+.ipay-design-process p{
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.ipay-design-process img{
+  width: 50%;
+  height: 30%;
+  margin-left: 23%;
+  padding-top: 70px; 
+}
+
+.competitive-sub h4{
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.evaluation p{
+  line-height: 1.6;
+  padding-top: 20px;
+  margin-left: 18%;
+  width: 60%;
+} 
+
+.evaluation h3{
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.evaluation img{
+  width: 60%;
+  height: 30%;
+  margin-left: 18%;
+  padding-top: 70px; 
+}
+
+.feature-list li {
+  line-height: 1.6;
+  padding: 10px;
+  width: 60%;
+  margin-left: 182px;
+  list-style-type: none;
+}
+
+.insight-heading{
+  color: purple;
+}
+
+.feature-list {
+  margin-top: 50px;
+}
+
+.user-flow p{
+  line-height: 1.6;
+  padding-top: 30px;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.user-flow h3{
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.user-flow img{
+  width: 30%;
+  height: 10%;
+  margin-left: 35%;
+  padding-top: 70px; 
+}
+
+.design-hifi p{
+  color: black;
+  line-height: 1.6;
+  padding-top: 30px;
+  margin-left: 18%;
+  width: 60%;
+}
+
+.design-hifi h1{
+margin-top: -100px;
+text-align: center;
+color: purple;
+font-family: 'Pangolin', cursive;
+}
+
+.design-hifi h3{
+  margin-left: 18%;
+  padding-top: 50px;
+  color: black;
+}
+
+.design-hifi img{
+  width: 60%;
+  height: 30%;
+  margin-left: 18%;
+  padding-top: 70px; 
+}
+
+.ipay-testing img {
+  margin-left: 220px;
+  margin-top: 50px;
+}
+
+.stay-tune{
+  color: purple;
+  margin-top: 100px;
+}
+
+.kobo-thank-you{
+  width: 40%;
+  height: 20%;
+  padding-top: 70px;
+  margin-top: -100px;
+
+}
+
+.restaurant-thank-you{
+  width: 50%;
+  height: 30%;
+  padding-top: -100px; 
+}
+
+.about-container {
+  display: flex;
+  color: black;
+  
+}
+
+.left-section {
+  width: 40%;
+}
+
+.left-section img {
+  max-width: 65%;
+  margin-left: 150px;
+}
+
+.left-section h2 {
+  font-size: 24px;
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.left-section .highlight {
+  color: purple; 
+}
+
+.contact-section {
+  margin-top: -3px;
+  line-height: 2.3;
+  margin-left: 173px;
+}
+
+.contact-section p {
+  margin: 0;
+  margin-top:-2px ;
+}
+
+.contact-section a {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+}
+
+.right-section {
+  width: 45%;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+
+.right-section h3 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.right-section p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.edu-section {
+  color: black;
+  font-size: medium;
+  line-height: 1.8;
+  background-color: #f8f5f5fd; 
+ 
+
+}
+
+.edu-section h1 {
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.degree {
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  margin-top: 50px;
+}
+
+.book-img img {
+  width: 60%;
+  height: auto;
+  margin-left: 5%;
+  padding-top: 70px; 
+}
+
+ .edu-2 {
+  margin-left: 200px;
+}
+
+.edu-2 p{
+  font-size: 15px;
+}
+
+.journey{
+  color: black;
+  line-height: 1.6;
+}
+
+.journey h1{
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.journey p{
+  line-height: 1.6;
+  padding-top: 30px;
+  margin-left: 18%;
+  width: 65%;
+}
+
+.journey h3 {
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.journey-container{
+  color: black;
+}
+
+.journey-container h3{
+  margin-left: 18%;
+  padding-top: 50px;
+}
+
+.law-container{
+  display: flex;
+  justify-content: center;
+  gap: 170px;
+  margin-top: 50px;
+}
+
+.legal img{
+  width: 65%;
+  height: auto;
+  margin-left: 5%;
+  padding-top: 70px; 
+}
+
+.journey-colmn p{
+  line-height: 1.6;
+  padding-top: 10px;
+  margin-left: 34%;
+  width: 75%;
+}
+
+.journey-colmn h3{
+  margin-left: 34%;
+}
+
+.value p{
+  line-height: 1.9;
+  padding-top: 10px;
+  margin-left: 18%;
+  width: 65%;
+  color: black;
+}
+
+.value h1 {
+  text-align: center;
+  color: purple;
+  font-family: 'Pangolin', cursive;
+  margin-top: 100px;
+}
+
+.value h3{
+  margin-left: 18%;
+  padding-top: 50px;
+  color: black;
+}
+
+.value img{
+  width: 60%;
+  height: auto;
+  margin-left: 20%;
+  padding-top: 70px; 
+  }
+
+.award-column {
+  display: flex;
+  margin-top: 50px;
+  color: black;
+}
+
+.award-img img{
+  width: 30%;
+  height: auto;
+  margin-left: 15%;
+  padding-top: 40px; 
+}
+
+.my-award h3{
+  margin-left: -630px;
+  margin-top: 110px;
+}
+
+.my-award li{
+  margin-left: -655px;
+  line-height: 1,9;
+  padding: 10px;
+  
+}
